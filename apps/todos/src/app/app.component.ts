@@ -1,9 +1,6 @@
 import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-
-interface Todo {
-  title: string;
-}
+import { Todo } from '@nx-practice-app/data';
 
 @Component({
   selector: 'nx-practice-app-root',
